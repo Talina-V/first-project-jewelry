@@ -9,18 +9,19 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: url("img/bgc.svg") no-repeat; /* Изображение дублируется */
+    background: url("img/bgc.svg") no-repeat; 
     border-bottom-width: 2px; /* Толщина линии внизу */
     border-bottom-style: solid; /* Стиль линии внизу */
     border-bottom-color: white; /* Цвет линии внизу */
 }
 
 .navigation{
+    Width: 1110px; margin: 0 auto;
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 
 .nav{
@@ -76,7 +77,39 @@
     border-right-color: white;  
 
 }
+/*menu2*/
 
+.container__menu{
+    Width: 1110px; margin: 0 auto;
+    padding-bottom: 50px;
+    display:table;
+    
+}
+
+.menu{
+    list-style: none;
+    background:#fff;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.nav__doule{
+    float: left;
+    border-left: 1px solid #333;
+    border-top: 1px solid #333;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 10px 25px;
+
+}
+
+.menu li a{
+    color:#333;
+    text-decoration: none;
+    margin: 0 32px;
+    
+}
+/*menu2*/
 /*catalog*/
 .ivent{
     color: #333;
@@ -88,7 +121,7 @@
 
 .image__menu{
     Width: 1110px;
-    Height: 851px;   
+    Height: 650px;   
     display: block;
     margin: 0 auto;
 }
@@ -97,4 +130,49 @@
 
     margin-right: 10px; /* Отступ справа */
     margin-bottom: 10px; /* Отступ снизу */
+}
+/*catalog*/
+
+/*our salon*/
+.our__salon{
+    width: 100%;
+    height: 100vh;
+    background: url("img/background_our_salon.svg") no-repeat; 
+    text-align: center;
+
+}
+.salon__text{
+    color: white;  
+
+}
+.salon__top{
+    color: white; 
+    font-size: 21px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.salon__center{
+    color: white; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.salon__bottom{
+    color: white; 
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.btn__salon{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.2s linear, color 0.2s linear;
+    background-color:#fff;
 }
